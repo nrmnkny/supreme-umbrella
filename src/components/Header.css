@@ -1,0 +1,31 @@
+header {
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    z-index: 50; /* Ensures the header is above other content */
+}
+
+nav ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+}
+
+nav li {
+    padding: 8px 16px; /* Padding for clickable area */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets text color */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+nav a:hover, nav a:focus {
+    color: #F2E5C4; /* Accent color for hover and focus */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Soft white glow for readability */
+}
+
+@media (max-width: 768px) {
+    nav {
+        background-color: white; /* Ensures readability on smaller screens */
+    }
+}
