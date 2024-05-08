@@ -18,4 +18,4 @@ The Encreage website is designed to showcase our cutting-edge services in web de
 To get the project running locally:
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/encreage/your-project.git](https://github.com/nrmnkny/supreme-umbrella.git)
+   git clone (https://github.com/nrmnkny/supreme-umbrella.git)
